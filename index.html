@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export Table</title>
+</head>
+
+<body>
+    <style type="text/css">
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .header {
+            background: #292E47;
+            color: #fff;
+            min-height: 13vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content-wrapper {
+            background: #fff;
+            padding: 6px;
+            position: relative;
+            top: -40px;
+            z-index: 1;
+            padding: 80px 20px;
+            margin: 0 60px;
+            border: #292E47 2px solid;
+            text-align: start;
+        }
+
+        .content-after-footer-wrapper {
+            background: #fff;
+            padding: 20px;
+            border: #292E47 2px solid;
+            margin: 40px 60px;
+            text-align: start;
+        }
+
+        .content-after-footer-wrapper .content {
+            margin: 20px 0;
+        }
+
+        .content-wrapper>h1 {
+            text-align: center;
+            margin: auto;
+        }
+
+        .content {
+            font-size: 16px;
+            margin: 50px 0;
+        }
+
+        .footer-text {
+            font-size: small;
+            text-align: center;
+            color: #292E4780;
+        }
+
+        .copyright-section {
+            display: flex;
+            flex-flow: row wrap;
+            flex: 1 1 0;
+            justify-content: space-between;
+            margin: 60px auto 0 auto;
+            color: #292E4780;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        h4 {
+            margin: 0;
+        }
+
+        h3 {
+            color: #567DF4;
+        }
+
+        .hr {
+            border: solid 2px #FFC600;
+            margin: 0 60px;
+        }
+        
+    </style>
+    <div class="header">
+        <img src="/assetkey-logo.svg" alt="assetkey logo" style="width: auto;">
+    </div>
+    <div class="container">
+        <div class="content-wrapper">
+            <h1>Asset Inspection Reminder</h1>
+
+            <div class="content">
+                <h4>Hello David,</h4>
+                <p>Please note that 15 assets are currently due for inspection. Kindly ensure timely completion.
+                </p>
+                <p>
+                    Open your <strong>assetkey</strong> app to see more information.</p>
+            </div>
+
+            <div class="footer">
+                <p>Regards</p>
+                <h3>Assetkey Team</h3>
+
+                <hr>
+
+                <div class="footer-text">
+                    If you have questions or issues with this payment contact DentalDoor at +234 (080) 3821-2490,
+                    info@assetkey.com.
+                    Kindly ignore if this email was not meant for you.
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr">
+
+        <div class="content-after-footer-wrapper">
+
+            <div class="content">
+                <p>P304 S Jones Blvd #4064 Las Vegas, NV
+                    United States
+                </p>
+                <p>Phone: +234 (080) 3821-2490</p>
+            </div>
+
+            <div class="copyright-section">
+                <div class="copyright">
+                    <script>
+                        let year = new Date().getFullYear();
+                        document.write('&copy; Copyright ' + year + ' assetKey.');
+                    </script>
+                </div>
+
+                <div class="logo">
+                    <img src="" alt="assetkey-logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
